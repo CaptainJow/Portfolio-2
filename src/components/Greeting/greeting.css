@@ -1,0 +1,55 @@
+.container-content{
+    margin-top: 2rem;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row ; 
+    flex-wrap: wrap;
+
+}
+.welcome-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center ;
+    color: var(--DarkPink);
+    padding-bottom: 2rem;
+}
+.emo{
+  color: yellow;
+  padding-left: 1rem;
+}
+p{
+    color: var(--LightPink);
+    font-size: 20px;
+    width: 700px;
+    text-align: center;
+}
+
+.svg{
+    height: px;
+    width: 500px;
+    margin-left:10rem;
+    padding-bottom: 3rem
+}
+.socials{
+    margin-top: 2rem;
+    font-size: 40px;
+}
+.social-logo{
+    margin-right: 1rem;
+    margin-left: 1rem;
+    color: yellow;
+}
+@media only screen and ( max-width: 1230px){
+  .svg{
+    margin-top: 3rem;
+    margin-left: 0;
+  }
+  p{
+    width: auto;
+  }
+}

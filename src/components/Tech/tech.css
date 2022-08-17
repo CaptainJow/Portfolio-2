@@ -1,0 +1,48 @@
+.who-am{
+  margin-top: 3rem;
+}
+.container-progress{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--DarkPink) ;
+  text-align : center ;
+}
+.ht{
+  font-size: 22px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+
+
+}
+.back-co{
+  position: relative;
+  left: 10%;
+  width: 370px;
+  height: 30px;
+  background-color: beige;
+}
+.back-color{
+  background-color: yellow;
+  height: 30px;
+
+}
+.back-color::after{
+  color:var(--DarkPink) ;
+  content: '.';
+  position: relative;
+  left: 50%;
+  width: 290px;
+    height: 35px;
+  background-color: var(--DarkPink) ;
+
+}
+
+th, td {
+  text-align:center;
+  padding:10px ;
+
+}
