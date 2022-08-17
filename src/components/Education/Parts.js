@@ -1,7 +1,6 @@
 import React from 'react'
 import './education.css'
 import './parts.css'
-import { Link } from 'react-router-dom'
 export default function Parts() {
     const openInNewTab = (url) => {
         const newWindow = window.open(url, '_blank', 'noopener,noreferrer')

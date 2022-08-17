@@ -9,62 +9,63 @@ export default function Tech() {
         <table>
         <tr>
           <th><h2>HTML</h2></th>
-          <th><div className='back-co'>
-                <div style={{width: "250px"}} className='back-color'>
+          <th><div className='progress'>
+                <div style={{width: "250px"}} className='progress-value1'>
                 </div>
             </div></th>
         </tr>
         <tr>
           <td><h2>CSS</h2></td>
-          <td><div className='back-co'>
-                <div style={{width: "200px"}} className='back-color'>
+          <td><div className='progress'>
+                <div style={{width:"30%"}} className='progress-value2'>
                 </div>
             </div></td>
         </tr>
         <tr>
           <td><h2>JAVA SCRIPT</h2></td>
-          <td><div className='back-co'>
-                <div style={{width: "170px"}} className='back-color'>
+          <td><div className='progress'>
+                <div style={{width: "170px"}} className='progress-value3'>
                 </div>
             </div></td>
 
         </tr>
         <tr>
           <td><h2>C</h2></td>
-          <td><div className='back-co'>
-                <div style={{width: "250px"}} className='back-color'>
+          <td><div className='progress'>
+                <div style={{width: "250px"}} className='progress-value4'>
                 </div>
             </div></td>
 
         </tr>
         <tr>
           <td><h2>C++</h2></td>
-          <td><div className='back-co'>
-                <div style={{width: "230px"}} className='back-color'>
+          <td><div className='progress'>
+                <div style={{width: "230px"}} className='progress-value5'>
                 </div>
             </div></td>
 
         </tr>
         <tr>
           <td><h2>C#</h2></td>
-          <td><div className='back-co'>
-                <div style={{width: "200px"}} className='back-color'>
+          <td><div className='progress'>
+                <div style={{width: "200px"}} className='progress-value6'>
                 </div>
             </div></td>
 
         </tr>
         <tr>
           <td><h2>Rubey</h2></td>
-          <td><div className='back-co'>
-                <div style={{width: "100px"}} className='back-color'>
+          <td><div className='progress'>
+                <div style={{width: "100px"}} className='progress-value7'>
                 </div>
-            </div></td>
+            </div>
+            </td>
 
         </tr>
         <tr>
           <td><h2>JAVA</h2></td>
-          <td><div className='back-co'>
-                <div style={{width: "150px"}} className='back-color'>
+          <td><div className='progress'>
+                <div style={{width: "150px"}} className='progress-value8'>
                 </div>
             </div></td>
 
