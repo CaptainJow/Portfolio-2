@@ -18,9 +18,9 @@ import './navbar.css' ;
          <nav ref={ navRef} >
    
             <a className="List-item" href='/#'>Home</a>
-            <a  className="List-item" href='/#'>Eduction</a>
-            <a className="List-item" href='/#'>Experience</a>
-            <a className="List-item" href='/#'>Projects</a>
+            <a  className="List-item" href='/Education'>Eduction</a>
+            <a className="List-item" href='/Experience'>Experience</a>
+            <a className="List-item" href='/Projects'>Projects</a>
           
    
  <button className="nav-btn nav-close-btn" onClick ={ showNavBar}>

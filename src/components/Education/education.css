@@ -1,0 +1,14 @@
+.svg2{
+    width: 800px;
+}
+.text2{
+    padding-left: 2rem;
+
+}
+@media only screen and ( max-width: 1230px){
+ .svg2{width: 100%;}
+ .text2{
+    padding-top: 3rem;
+    padding-left: 0;
+}
+}
