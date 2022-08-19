@@ -4,7 +4,7 @@ import logo from './svg.svg'
 import {FaInstagram, FaLinkedin, FaRegSmileWink, FaTwitter } from 'react-icons/fa'
 export default function Greeting() {
   return (
-    <div class="container-content">
+    <div className="container-content">
         <div className='Welcome-text'>
           <div className='welcome-title '><h1 className='animate-charcter' >Merhaba size</h1> <h1 className='emo'> <FaRegSmileWink/></h1></div>  
             <p>I'm Yousef Alsarraj .I am a computer science student , planning to become a Full stack developer.</p>

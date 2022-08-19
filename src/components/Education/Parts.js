@@ -8,7 +8,7 @@ export default function Parts() {
       }
   return (
 
-    <div class="container-content">
+    <div className="container-content">
         <div className='Card'>
             <div className='card-img uni-one'></div>
             <h3 className='Uni-title'>Ankara Üniversitesi</h3>

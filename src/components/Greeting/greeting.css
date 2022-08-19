@@ -1,5 +1,5 @@
 .container-content{
-    margin-top: 2rem;
+    margin-top: 5rem;
     width: 100%;
     height: auto;
     text-align: center;
@@ -9,7 +9,6 @@
     flex-direction: row ; 
     flex-wrap: wrap;
     padding-top: 2rem;
-    margin-bottom: 3rem;
 
 }
 .welcome-title{
@@ -19,6 +18,7 @@
     justify-content: center ;
     color: var(--DarkPink);
     padding-bottom: 2rem;
+    text-align: center;
 }
 .emo{
   color: yellow;
@@ -51,6 +51,7 @@ p{
   .svg{
     margin-top: 3rem;
     margin-left: 0;
+    width: 80%;
   }
   p{
     width: auto;
@@ -82,5 +83,14 @@ p{
 @keyframes textclip {
   to {
     background-position: 200% center;
+  }
+}
+
+@media only screen and ( max-width: 768px){
+  .animate-charcter{
+    font-size: 50px;
+  }
+  p{
+    width: 400px;
   }
 }

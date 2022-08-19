@@ -11,7 +11,7 @@
   
 }
 .ht{
-  font-size: 22px;
+font-size: 22px;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -28,7 +28,7 @@ justify-content: center;
   padding: 0 5px;
   display: flex;
   height: 40px;
-  width: 500px;
+  width: 300px;
 }
 
 .progress-value1 {
@@ -38,6 +38,7 @@ justify-content: center;
   background: #fff;
   height: 30px;
   width: 0;
+
 }
 
 .progress-value2 {
@@ -97,11 +98,13 @@ justify-content: center;
   background: #fff;
   height: 30px;
   width: 0;
+  
 }
-@keyframes load1 {
+@keyframes load1   {
   0% { width: 0; }
   100% { width: 80%; }
 }
+
 @keyframes load2 {
   0% { width: 0; }
   100% { width: 66%; }
@@ -134,9 +137,16 @@ justify-content: center;
   0% { width: 0; }
   100% { width: 50%; }
 }
-
 th, td {
   text-align:center;
   padding:10px ;
 
+}
+@media only screen and ( max-width: 768px){
+  .progress{
+    width: 200px;
+  }
+  .welcome-text{
+    font-size: 2px;
+  }
 }

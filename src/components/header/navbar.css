@@ -8,6 +8,9 @@ header{
     background-color: var(--mainColor);
     color: var(--DarkPink) ;
     border-bottom: solid ;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 nav a{
     margin: 0 2rem;
@@ -54,6 +57,7 @@ header .nav-btn {
         background-color: var(--mainColor);
         transition: 1s;
         transform: translateY(-100vh);
+        z-index: auto;
     }
     header .responsive_nav{
         transform: none ;

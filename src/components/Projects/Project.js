@@ -6,7 +6,7 @@ import logo from './svg_project.svg'
 export default function Project() {
   return (
     <>
-     <div class="container-content">
+     <div className="container-content">
         <div><img className="svg" src={logo} alt="svg"/></div>
     <div className='Welcome-text text2'>
       <div className='welcome-title'><h1 style={{color: "yellow"}}> Education</h1></div>  

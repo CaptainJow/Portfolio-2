@@ -6,11 +6,12 @@ export default function Tech() {
     <div className='who-am' >
         <h1 className='welcome-title'>in this Part I will show some of my skills :</h1>
         <div className='container-progress'>
-        <table>
+        <table  >
+        <tbody>
         <tr>
           <th><h2>HTML</h2></th>
           <th><div className='progress'>
-                <div style={{width: "250px"}} className='progress-value1'>
+                <div  className='progress-value1'>
                 </div>
             </div></th>
         </tr>
@@ -70,6 +71,7 @@ export default function Tech() {
             </div></td>
 
         </tr>
+        </tbody>
       </table>
     
         </div>
