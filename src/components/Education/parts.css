@@ -104,16 +104,6 @@
     width: auto;
 }
 
-.text-uni{
-    text-align: left;
-    background-color: lightblue;
-    color: black;
-    margin-top: 10px;
-    width: 100%;
-    height: 150px;
-}
-
-
 .uni-one{background-image: url('./ank_logo.png');
 }
 .uni-2{background-image: url('./UCLM-Logo\ \(1\).png');
@@ -122,4 +112,23 @@
 }
 .button-uni:hover{
     color : var(--LightPink)
+}
+
+@media only screen and ( max-width: 768px){
+  .container-cards .card .box .content{
+    height: 500px;
+    width: auto;
+  }
+  .container-cards .card .box {
+    width: auto;
+  }
+  .container-cards .card .box::before{
+    content: '';
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    background: rgba(255,255,255,0.05);
+    pointer-events: none;
+  }
 }
