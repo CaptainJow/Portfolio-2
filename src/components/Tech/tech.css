@@ -24,7 +24,6 @@ justify-content: center;
   justify-content: flex-start;
   border-radius: 100px;
   align-items: center;
-  position: relative;
   padding: 0 5px;
   display: flex;
   height: 40px;
@@ -145,8 +144,5 @@ th, td {
 @media only screen and ( max-width: 768px){
   .progress{
     width: 200px;
-  }
-  .welcome-text{
-    font-size: 2px;
   }
 }

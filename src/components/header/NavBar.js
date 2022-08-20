@@ -19,7 +19,6 @@ import {Link} from "react-router-dom" ;
    
             <Link  to="/#">Home</Link>
             <Link   to="/Education">Eduction</Link>
-            < Link to='/Experience'>Experience</Link>
             <Link to='/Projects'>Projects</Link>
           
    

@@ -18,14 +18,14 @@ export default function Tech() {
         <tr>
           <td><h2>CSS</h2></td>
           <td><div className='progress'>
-                <div style={{width:"30%"}} className='progress-value2'>
+                <div className='progress-value2'>
                 </div>
             </div></td>
         </tr>
         <tr>
           <td><h2>JAVA SCRIPT</h2></td>
           <td><div className='progress'>
-                <div style={{width: "170px"}} className='progress-value3'>
+                <div className='progress-value3'>
                 </div>
             </div></td>
 
@@ -33,7 +33,7 @@ export default function Tech() {
         <tr>
           <td><h2>C</h2></td>
           <td><div className='progress'>
-                <div style={{width: "250px"}} className='progress-value4'>
+                <div  className='progress-value4'>
                 </div>
             </div></td>
 
@@ -41,7 +41,7 @@ export default function Tech() {
         <tr>
           <td><h2>C++</h2></td>
           <td><div className='progress'>
-                <div style={{width: "230px"}} className='progress-value5'>
+                <div className='progress-value5'>
                 </div>
             </div></td>
 
@@ -49,7 +49,7 @@ export default function Tech() {
         <tr>
           <td><h2>C#</h2></td>
           <td><div className='progress'>
-                <div style={{width: "200px"}} className='progress-value6'>
+                <div  className='progress-value6'>
                 </div>
             </div></td>
 
@@ -57,7 +57,7 @@ export default function Tech() {
         <tr>
           <td><h2>Rubey</h2></td>
           <td><div className='progress'>
-                <div style={{width: "100px"}} className='progress-value7'>
+                <div  className='progress-value7'>
                 </div>
             </div>
             </td>
@@ -66,7 +66,7 @@ export default function Tech() {
         <tr>
           <td><h2>JAVA</h2></td>
           <td><div className='progress'>
-                <div style={{width: "150px"}} className='progress-value8'>
+                <div className='progress-value8'>
                 </div>
             </div></td>
 
