@@ -114,10 +114,11 @@
     color : var(--LightPink)
 }
 
+
 @media only screen and ( max-width: 768px){
   .container-cards .card .box .content{
     height: 500px;
-    width: auto;
+    width: 350px;
   }
   .container-cards .card .box {
     width: auto;
@@ -130,5 +131,8 @@
     height: auto;
     background: rgba(255,255,255,0.05);
     pointer-events: none;
+  }
+  .text-al{
+    max-width: 320px ;
   }
 }

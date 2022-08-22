@@ -17,9 +17,9 @@ import {Link} from "react-router-dom" ;
          <div className='List'>
          <nav ref={ navRef} >
    
-            <Link  to="/#">Home</Link>
-            <Link   to="/Education">Eduction</Link>
-            <Link to='/Projects'>Projects</Link>
+            <Link  to="/#" onClick = { showNavBar}>Home</Link>
+            <Link   to="/Education" onClick = { showNavBar}>Education</Link>
+            <Link to='/Projects' onClick = { showNavBar}>Projects</Link>
           
    
  <button className="nav-btn nav-close-btn" onClick ={ showNavBar}>
