@@ -8,7 +8,7 @@ export default function SmallProjects() {
   }
   return (
     <div className='container-projects'>
-      <div className="wrapper"  onClick={() => openInNewTab('https://github.com/LuGuDu/todoapp')}>
+      <div className="wrapper"  onClick={() => openInNewTab('https://todoappdsw.herokuapp.com/login')}>
         <div><h2 className="Title-Project">ToDoList</h2></div>
         <div className="text-project">
           <p className="Pragraf-text">by building this project I was able to understand more about the MVC project design.
