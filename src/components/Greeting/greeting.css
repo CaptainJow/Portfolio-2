@@ -11,6 +11,7 @@
     padding-top: 2rem;
 
 }
+
 .welcome-title{
     display: flex;
     flex-direction: row;
@@ -78,6 +79,7 @@ p{
   animation: textclip 2s linear infinite;
   display: inline-block;
       font-size: 80px;
+   
 }
 
 @keyframes textclip {
@@ -89,8 +91,11 @@ p{
 @media only screen and ( max-width: 768px){
   .animate-charcter{
     font-size: 50px;
+    width: 50%;
   }
   p{
-    width: 400px;
+    width: 100%;
   }
+
+  
 }

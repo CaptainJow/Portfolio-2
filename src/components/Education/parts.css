@@ -42,7 +42,7 @@
     pointer-events: none;
   }
   .container-cards .card .box:hover{
-    transform: translateY(-50px);
+    transform: translateY(-30px);
     box-shadow: 0 40px 70px rgba(0,0,0,0.5);
   }
   .container-cards .card .box .content{
