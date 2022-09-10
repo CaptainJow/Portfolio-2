@@ -1,10 +1,11 @@
 import React from 'react'
 import './tech.css'
-
+import { useTranslation } from "react-i18next";
 export default function Tech() {
+  const { t,} = useTranslation();
   return (
     <div className='who-am' >
-        <h1 className='welcome-title'>in this Part I will show some of my skills :</h1>
+        <h1 className='welcome-title'>{t("Parts")}</h1>
         <div className='container-progress'>
         <table  >
         <tbody>

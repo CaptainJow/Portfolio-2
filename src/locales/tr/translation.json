@@ -1,0 +1,24 @@
+{
+    "Home" : "Ana Sayfa" , 
+    "Projects" : "Projeler",
+    "Experience" : "Tecrübe" ,
+    "Education" : "Eğitim" , 
+    "Welcome" : "Hoşgeldiniz", 
+    "Welcome-txt1" :" Ben Yousef Alsarraj . Ankara Üniversitesinde bilgisayar mühendisliği öğrencisiyim, Full-stack developer olmaya planliyorum ." ,
+    "Welcome-txt2" :" Öğrenim hayatımda çok farklı yetenekleri elde ettim , ve bunları aşağda anlatıyorum ." ,
+    "Parts" : "Burada bazı yeteneklerimi gösteriyorum :" ,
+    "Education-txt" : "Bu saydada katıldığımın üniversitelerden ve programlardan kısaca bahsediyorum :",
+    "Ankara-uni" : "Ankara Üniversitesi" ,
+    "Ankara-uni-txt" : "Burada 4 yılık diploma bilgisayar mühendisliği fakültesinden eğitim aldım , burada mühendislik hayatım başlıyorum." ,
+    "Uclm-uni" : "Castilla-La Mancha Üniversitesi" ,
+    "Uclm-uni-txt" :"Burada Erasmus programımı gerçekleştim , İspanyada'ken takım projelerinde çalışmayı öğrendim. " ,
+     "University-web" :"Üniversite sitesi" ,
+     "Projects-txt1" : "Bu küçük projeler bazı yeteneklerimi Kullanıyor." ,
+     "Projects-txt2" : "bu projelerden bazılarını deploy edildi ve bazılarını sadece GitHub sayfalarını var ." ,
+     "Projects-txt3" : "Projeyi görmek için karta tıklayın ." ,
+     "ToDoList" : "Bu projeyi yaparken MVC modeli daha iyi ve derin bir şekide anlayabiliridim , hem de ilk Rubey projemi buydu .",
+     "Hospital" :"DataBase ilk kullanışımı burada yaptım , ve asp.net framework ile çalıştım ." ,
+     "Portfolio" :" Siz şuan kallandığınız siteyi , bu site ReactJs'i kullanarak tasarlandı ."
+
+
+}

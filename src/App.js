@@ -7,10 +7,11 @@ import Project from "./components/Projects/Project";
 import Experience from "./Experience/Experience";
 import Footer from "./components/Footer/Footer";
 
+
 function App() {
+  
   return (
     <>
-   
    
       <NavBar />
       <Routes>

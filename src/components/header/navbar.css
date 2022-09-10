@@ -31,12 +31,54 @@ header .nav-btn {
     opacity: 0;
     font-size: 1.8rem;
 }
+.title{
+    color: var(--DarkPink);
+    text-decoration: none;
+}
 .List{
     display: flex;
     justify-content: center;
     align-items: center;
      flex-direction: row;
 }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 50px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px #DA0037;
+    
+    z-index: 1;
+
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    
+  }
+
+
+  .dropdown-item{
+    cursor: pointer;
+    margin: 5px;
+  }
+  .dropdown-content .dropdown-item:hover{
+    color : var(--mainColor) ; 
+    background-color: #DA0037;
+    padding: 2px;
+  }
+  .lang-but{
+    font-size :  25px;
+    cursor: pointer; 
+    color : yellow ; 
+  }
 
 @media only screen and ( max-width: 768px){
     header .nav-btn{
@@ -69,5 +111,8 @@ header .nav-btn {
     }
     nav a{
         font-size: 1.5rem;
+    }
+    .dropdown{
+        margin-right: 0;
     }
 }

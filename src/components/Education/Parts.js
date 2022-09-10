@@ -1,7 +1,9 @@
-import React from 'react'
-import './education.css'
-import './parts.css'
+import React from 'react' ;
+import './education.css' ;
+import './parts.css' ; 
+import { useTranslation } from "react-i18next";
 export default function Parts() {
+const {t} = useTranslation() ; 
   return (
 
     <div className="container-cards">
@@ -10,9 +12,9 @@ export default function Parts() {
         <div className="content">
           
           <div className='uni-one card-img'></div>
-          <h1>Ankara University</h1>
-          <p className='text-al'>Computer science faculty with a 4 year bachelor degree, this is where my Computer software engineering life starts .</p>
-          <a href='https://www.ankara.edu.tr/' rel="noreferrer" target="_blank" >University website</a>
+          <h1>{t("Ankara-uni")}</h1>
+          <p className='text-al'>{t("Ankara-uni-txt")}</p>
+          <a href='https://www.ankara.edu.tr/' rel="noreferrer" target="_blank" >{t("University-web")}</a>
         </div>
       </div>
     </div>
@@ -20,9 +22,9 @@ export default function Parts() {
       <div className="box">
         <div className="content">
           <div className='uni-2 card-img'></div>
-          <h1>University of Castilla-La Mancha</h1>
-          <p className='text-al'>I was here as an Exchange Student when I participated in the Erasmus Program , I practiced how to deploy and make projects from scratch here</p>
-          <a href='https://www.uclm.es/?sc_lang=en' rel="noreferrer" target="_blank">University website</a>
+          <h1>{t("Uclm-uni")}</h1>
+          <p className='text-al'>{t("Uclm-uni-txt")}</p>
+          <a href='https://www.uclm.es/?sc_lang=en' rel="noreferrer" target="_blank">{t("University-web")}</a>
         </div>
       </div>
     </div>

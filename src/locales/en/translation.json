@@ -1,0 +1,22 @@
+{   
+    "Home" : "Home" , 
+    "Projects" : "Projects",
+    "Experience" : "Experience" ,
+    "Education" : "Education" , 
+    "Welcome" : "Welcome" ,
+    "Welcome-txt1" :"I'm Yousef Alsarraj .I am a computer science student , planning to become a Full stack developer." ,
+    "Welcome-txt2" :" through out my learning journy I have aquired some valuable skills that will be explained in details.",
+    "Parts" : "This Part showcases some of my skills :" ,
+    "Education-txt" : "In this section I will include my University study and Programs :",
+    "Ankara-uni" : "Ankara University" ,
+    "Ankara-uni-txt" : "Computer science faculty with a 4 year bachelor degree, this is where my Computer software engineering life starts ." ,
+    "Uclm-uni" : "University of Castilla-La Mancha" ,
+    "Uclm-uni-txt" :"I was here as an Exchange Student when I participated in the Erasmus Program , in Spain I learned how to work on team projects . " ,
+     "University-web" :"University website" ,
+     "Projects-txt1" : "these Small Projects make use of my different skills ." ,
+     "Projects-txt2" : "Some of these Projects are either Deployed or have a GitHub page ." ,
+     "Projects-txt3" : "You can veiw the Project by Clicking on the Card : " , 
+     "ToDoList" : "by building this project I was able to understand more about the MVC project design.it was aslo my first introduction into ruby .",
+     "Hospital" :"by building this project I was able to understand more about the MVC project design.it was aslo my first introduction into ruby . " ,
+     "Portfolio" :" it is this project that you are viewing , I learned how to use react in better way ."
+}
