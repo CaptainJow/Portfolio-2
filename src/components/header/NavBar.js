@@ -16,7 +16,7 @@ import { MdLanguage } from "react-icons/md"  ;
  
       <>
       <header>
-      <h1><Link className="title" to="/#" onClick = { showNavBar}>SARRAJ</Link></h1>
+      <h1><Link className="title" to="/#" >SARRAJ</Link></h1>
          <div className='List'>
          <nav ref={ navRef} >
    
